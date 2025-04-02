@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Grechen+Fuemen&family=Playwrite+DK+Loopet:wght@100..400&family=Quicksand:wght@300..700&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Grechen+Fuemen&family=Lora:ital,wght@0,400..700;1,400..700&family=Playwrite+DK+Loopet:wght@100..400&family=Quicksand:wght@300..700&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html , body {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(246, 237, 224);
+   
+    color: rgb(35, 35, 35);
+
+}
+
+
+#home  a img {
+width: 50px;
+}
+ header  .logo-name    {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  margin-left: 10%;
+  color: rgb(35, 35, 35);
+   
+}
+header  .logo-name  h1 {
+    font-size: 30px;
+    font-family: "Sacramento", cursive;
+}
+
+ul {
+    list-style: none;
+}
+
+
+ul li a  {
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+    font-size: 15px;
+    font-weight: 550;
+    font-family: "Quicksand", sans-serif;
+   
+   
+   
+}
+header {
+    background-color: white;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   width: 90%;
+   padding-top: 6px;
+   
+} 
+
+#home ul li  {
+    display: inline;
+    margin: 0 16px;
+   
+
+}
+
+ul:hover > :not(:hover) 
+{
+    opacity: 0.3;
+}
+
+
+#home div img  {
+    width: 190px;
+    animation: fadeIn 1.5s ease-in-out;
+  
+}
+#home div img:hover{
+    transform: scale(1.02);
+    filter: brightness(1.05);
+    transition: 0.5s ease-in-out;
+}
+#home .imgs
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+#home p { 
+   margin-top: 10px;
+ 
+    margin-left: 10%;
+    font-size: 70px;
+    line-height: 1.7;
+    font-weight: 500;
+    font-family: "EB Garamond", serif;
+    
+}
+#home p span {
+   
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Sacramento", cursive;
+   
+    
+}
+#home .home-p {
+    font-size:12px ;
+    margin-left: 11%;
+    font-family: "EB Garamond", serif;
+    font-size: 15px;
+   
+}
+#home  .first {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.126);
+    cursor: pointer;
+    
+}
+#home  .second{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.126);
+    cursor: pointer;
+    
+}
+#home button i {
+    color:#59320f;
+    font-size: 15px;
+   
+}
+#home button:hover{
+  background-color: rgba(254, 254, 254, 0.119);
+
+}
+ @keyframes fadeIn {
+
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1;transform: translateY(0);}
+ }
+
+ #home p, #home button {
+    animation: fadeIn 1.5s ease-in-out;
+ }
+
+
+
+ @keyframes bgChange {
+    0% { background: rgb(246, 237, 224); }
+    50% { background: rgb(242, 229, 210); }
+    100% { background: rgb(246, 237, 224); }
+}
+
+body {
+    animation: bgChange 8s infinite alternate ease-in-out;
+}
+
+
+#about_us {
+    background-color: #c9ab90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.196); 
+}
+#about_us p {
+    max-width: 600px;
+    padding: 0 20px ;
+   line-height: 1.6;
+   font-size: 16.5px;
+   font-family: "EB Garamond", serif;
+}
+#about_us img {
+    width: 500px;
+    padding: 35px;
+}
+#about_us p span {
+    font-family: "Sacramento", cursive;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#menu {
+    height: 100vh;
+   
+}
+#menu p {
+    font-family: "EB Garamond", serif;
+    padding: 50px;
+    font-weight: 500;
+    font-size: 35px;
+   
+    
+   
+}
+
+#menu  .imgs {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #a9815d1a;
+    padding: 20px;
+}
+#menu  .imgs img {
+    width: 220px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+#menu  .imgs img:hover {
+   
+    transform: translateY(-2px);
+    transition:  0.3s ease-in-out;
+}
+#menu .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+#menu .item a {
+    margin-top: 20px;
+    color: rgb(35, 35, 35);
+    font-family: "EB Garamond", serif;
+    text-decoration: none;
+    border-bottom:1px solid  rgb(35, 35, 35); 
+}
+#menu .item a:hover{
+    color: rgb(108, 108, 108);
+    border-bottom:1px solid  rgb(108, 108, 108); 
+}
+#Contact {
+   
+ background-color:  #b09986;
+display: flex;
+flex-direction: row;
+height: 100vh;
+
+
+}
+
+
+#Contact  iframe {
+   width: 450px;
+  margin: 50px ;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  
+}
+
+#Contact .info {
+    line-height: 1.7;
+    font-family: "EB Garamond", serif;
+    margin: 15% 0 ;
+   
+}
+
+#Contact .form  {
+    margin: 50px ;
+    margin-left: 10%;
+}
+#Contact .form form {
+    position: relative;
+}
+#Contact .form form input,textarea {
+    display: flex;
+    flex-direction: column;
+    font-family: "EB Garamond", serif;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1.1px solid ;
+    
+   
+} 
+input:focus+label{
+    transform: translateY(-20px);
+}
+
+#Contact .form h2 {
+    font-family: "EB Garamond", serif;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+
+   
+}
+
+
+
+#Contact .form form button {
+    width: 90px;
+    padding: 10px;
+    border: 1.1px solid ;
+    font-family: "EB Garamond", serif;
+
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+#Contact .form form button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    
+}
+
+
+footer {
+    background-color:#e0cebe;
+}
+
+footer .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    
+}
+footer .icons a i {
+    color: black;
+    font-size: 22px;
+    padding-right: 6px;
+}
+footer .icons a i:hover 
+{
+   text-decoration: underline;
+   transform: translateY(-2px);
+   transition: transform 0.3s ;
+}
+
+footer .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "EB Garamond", serif;
+    
+}
+footer .info p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+
+
